@@ -1,0 +1,130 @@
+/*!
+ * Start Bootstrap - Clean Blog v3.3.7+1 (http://startbootstrap.com/template-overviews/clean-blog)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+
+.post-preview h1, h2{
+  font-family: 'Lora', 'Times New Roman', serif;
+  color: #777;
+  font-size: 20px;
+}
+
+p {
+  line-height: 1.5;
+  margin: 30px 0;
+}
+p a {
+  text-decoration: none;
+}
+
+.post-preview h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-stretch: condensed;
+ 
+
+}
+
+
+
+
+
+.main-post h2,
+ {
+  font-size: 36px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+
+
+
+.main-post a {
+    color: #333333;
+}
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+
+
+
+
+
+.main-post 
+a:hover,
+a:focus {
+  color: #247eb5;
+  text-decoration: none;
+}
+
+
+.post-subtitle {
+  font-stretch: 4;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+
+.post-time p,{
+  color: #777777;
+    font-size: 13px;
+    font-style: italic;
+
+}
+
+
+
+
+.post-preview > a {
+  color: #333333;
+}
+.post-preview > a:hover,
+.post-preview > a:focus {
+  text-decoration: none;
+  color: #0085A1;
+}
+.post-preview > a > .post-title {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.post-preview > a > .post-subtitle {
+  margin: 0;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.post-preview > .post-meta {
+  color: #777777;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 0;
+}
+.post-preview > .post-meta > a {
+  text-decoration: none;
+  color: #333333;
+}
+.post-preview > .post-meta > a:hover,
+.post-preview > .post-meta > a:focus {
+  color: #0085A1;
+  text-decoration: underline;
+}
+@media only screen and (min-width: 768px) {
+  .post-preview > a > .post-title {
+    font-size: 16px;
+  }

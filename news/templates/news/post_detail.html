@@ -1,0 +1,53 @@
+{%extends 'index.html'%}
+
+
+{% block content %}
+	<!-- Starting post-->
+    
+    <div class="container">
+        <div class="row row_post_detail">
+            <div class="col-lg-8 ">
+                    <div class="detail-preview">
+                        <h2 class="main-post">
+                            {{ post.title }}
+                        </h2>
+                        {% if post.date %}
+                        	<div class="social_share">
+                            <p class="fa fa-clock-o post-time" aria-hidden="true" > {{post.date}}                           		
+	        				</p>
+	        				</div>      
+                        {% endif %}
+                        <img class="img-responsive" src="{{post.photo.url}}" alt="" >             
+                        <h3 class="post-subtitle post-text">{{ post.text}}</h3>                                   
+                        <hr>       
+                    </div>         
+            </div>
+            
+            <!-- here goes event list  -->
+                <div class="col-md-4"> 
+	                               	                
+                </div>
+            <!-- Social buttons  -->            
+            <div class="row social_share">
+        		<div class="col-lg-8 ">
+        			<div class="comment">
+        			<p>
+        				<a href="https://www.facebook.com/sharer/sharer.php?u={{ request.build_absolute_uri}}/"><i class="fa fa-3x fa-facebook-square" aria-hidden="true"></i></a>
+	        			<a  href="https://twitter.com/home?status={{share_string}}%20{{ request.build_absolute_uri}}"><i class="fa fa-3x fa-twitter-square" aria-hidden="true"></i></a>
+        			</p>
+        			<div class="fb-comments" data-href="{{ request.build_absolute_uri}}" data-numposts="5"></div>
+        		</div>
+        		</div>
+        </div>
+        </div>
+        
+        <!-- eND FOR ROW  -->
+        
+        	       	
+        
+
+        
+    </div>
+    <!-- END FOR CONTAINER  -->
+
+{% endblock %}
