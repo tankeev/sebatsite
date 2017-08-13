@@ -1,0 +1,167 @@
+{%extends 'index.html'%}
+{% load static%}
+
+{% block content %}
+    <div class="container">
+        <div class="row row_post_detail">
+            <div class="col-lg-12 ">
+                    <div id="tabs" class="tabs">
+                        <nav>
+                            <ul>
+                                <li><a href="#section-1" class="fa fa-university"><span>Лицей</span></a></li>
+                                <li><a href="#section-2" class="icon-cup fa fa-graduation-cap"><span>Жатакана</span></a></li>
+                                <li><a href="#section-3" class="fa fa-trophy"><span>Ийримдер</span></a></li>
+                                <li><a href="#section-4" class="fa fa-table"><span>Жадыбал</span></a></li>
+                                <li><a href="#section-5" class="fa fa-users"><span>Мугалимдер</span></a></li>
+                            </ul>
+                        </nav>
+                        <div class="content">
+                            <section id="section-1">
+                                <div class="col-md-8 mediabox">
+                                    <img src="{% static 'img/licey1.jpg'%}">
+                                    <h3>Лицей жөнүндө</h3>
+                                    <p>Эл аралык “Сапат” билим берүү мекемесинин филиалы болуп, Талас облусунда жайгашкан комплекстүү билим берүүчү мекеме болуп саналат.  Окуу жайыбыз 2004-жылдан бери билим алууга бардык шарттарды түзүп, окуучулардын мүмкүнчүлүктөрүн ачууга көмөк көрсөтүп келүүдө.
+                             Мындан сырткары “Манас Ата Сапат” лицейи таланттуу окуучуларды колдоо максатында “Жөндөмдүү балдар” программасын ишке ашырууда.Бул программанын алкагында  окуучуларга жана студенттерге окуудагы жетишкендиктери үчүн бюджеттик орундар жана гранттык колдоо көрсөтүлөт.
+
+                                   </p>
+                                </div>
+                            </section>
+                            <section id="section-2">
+                                <div class="mediabox">
+                                    <img src="img/04.png" alt="img04" />
+                                    <h3>Asparagus Cucumber Cake</h3>
+                                    <p>Chickweed okra pea winter purslane coriander yarrow sweet pepper radish garlic brussels sprout groundnut summer purslane earthnut pea tomato spring onion azuki bean gourd. </p>
+                                </div>
+                                <div class="mediabox">
+                                    <img src="img/05.png" alt="img05" />
+                                    <h3>Magis Kohlrabi Gourd</h3>
+                                    <p>Salsify taro catsear garlic gram celery bitterleaf wattle seed collard greens nori. Grape wattle seed kombu beetroot horseradish carrot squash brussels sprout chard.</p>
+                                </div>
+                                <div class="mediabox">
+                                    <img src="img/06.png" alt="img06" />
+                                    <h3>Ricebean Rutabaga</h3>
+                                    <p>Celery quandong swiss chard chicory earthnut pea potato. Salsify taro catsear garlic gram celery bitterleaf wattle seed collard greens nori. </p>
+                                </div>
+                            </section>
+                            <section id="section-3">
+                                <div class="mediabox">
+                                    <img src="img/02.png" alt="img02" />
+                                    <h3>Noodle Curry</h3>
+                                    <p>Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea.Sushi gumbo beet greens corn soko endive gumbo gourd.</p>
+                                </div>
+                                <div class="mediabox">
+                                    <img src="img/06.png" alt="img06" />
+                                    <h3>Leek Wasabi</h3>
+                                    <p>Sushi gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.</p>
+                                </div>
+                                <div class="mediabox">
+                                    <img src="img/01.png" alt="img01" />
+                                    <h3>Green Tofu Wrap</h3>
+                                    <p>Pea horseradish azuki bean lettuce avocado asparagus okra. Kohlrabi radish okra azuki bean corn fava bean mustard tigernut wasabi tofu broccoli mixture soup.</p>
+                                </div>
+                            </section>
+                            <section id="section-4">
+                                <div class="mediabox col-md-8">
+                                    <ul class="cbp_tmtimeline">
+                                        <li>
+                                            <time class="cbp_tmtime"><span>06:30</span></time>
+                                            <div class="cbp_tmicon fa fa-tint"></div>
+                                            <div class="cbp_tmlabel">
+                                                <h2>Ойгонуу</h2>
+                                                <p>Winter purslane...</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <time class="cbp_tmtime" datetime="2013-04-11T12:04"><span>4/11/13</span> <span>12:04</span></time>
+                                            <div class="cbp_tmicon cbp_tmicon-screen"></div>
+                                            <div class="cbp_tmlabel">
+                                                <h2>Greens radish arugula</h2>
+                                                <p>Caulie dandelion maize...</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <time class="cbp_tmtime" datetime="2013-04-13 05:36"><span>4/13/13</span> <span>05:36</span></time>
+                                            <div class="cbp_tmicon cbp_tmicon-mail"></div>
+                                            <div class="cbp_tmlabel">
+                                                <h2>Sprout garlic kohlrabi</h2>
+                                                <p>Parsnip lotus root...</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <time class="cbp_tmtime" datetime="2013-04-15 13:15"><span>4/15/13</span> <span>13:15</span></time>
+                                            <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                                            <div class="cbp_tmlabel">
+                                                <h2>Watercress ricebean</h2>
+                                                <p>Peanut gourd nori...</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <time class="cbp_tmtime" datetime="2013-04-16 21:30"><span>4/16/13</span> <span>21:30</span></time>
+                                            <div class="cbp_tmicon cbp_tmicon-earth"></div>
+                                            <div class="cbp_tmlabel">
+                                                <h2>Courgette daikon</h2>
+                                                <p>Parsley amaranth tigernut...</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </section>
+                            <section id="section-5">
+                                <div class="mediabox col-md-8">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6 text-center mb-4">
+                                            <img class="img-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
+                                            <h3>Ильяс Арслан                                   
+                                            </h3>
+                                            <h4>Мүдүр</h4>                                            
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6 text-center mb-4">
+                                            <img class="img-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
+                                            <h3>John Smith                                   
+                                            </h3>
+                                            <h4>Мүдүр орун басары</h4>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6 text-center mb-4">
+                                            <img class="img-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
+                                            <h3>John Smith                                   
+                                            </h3>
+                                            <h4>Мүдүр орун басары</h4>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6 text-center mb-4">
+                                            <img class="img-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
+                                            <h3>John Smith                                   
+                                            </h3>
+                                            <h4>Англис тили мугалмими</h4>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6 text-center mb-4">
+                                            <img class="img-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
+                                            <h3>John Smith
+                                                <small>Job Title</small>
+                                            </h3>
+                                            <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6 text-center mb-4">
+                                            <img class="img-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
+                                            <h3>John Smith
+                                                <small>Job Title</small>
+                                            </h3>
+                                            <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                </div>
+                            </section>
+                        </div><!-- /content -->
+                    </div><!-- /tabs -->
+                    <script src=""></script>
+                    <script src="{% static 'js/licey.js' %}"></script>
+                    <script>
+                        new CBPFWTabs( document.getElementById( 'tabs' ) );
+                    </script>         
+            </div> 
+        </div>   <!-- eND FOR ROW  -->           
+    </div> <!-- END FOR CONTAINER  -->
+{% endblock %}

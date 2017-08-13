@@ -22,6 +22,9 @@
     padding-left: 35px;
     padding-left: 35px;
 }
+.detail-preview p{
+  white-space: pre-wrap;
+}
 
 .comment {
     padding-left: 45px;
@@ -86,6 +89,9 @@
     -webkit-font-smoothing: antialiased;
 }
 
+.post-text p{
+  white-space: pre-wrap;
+}
 
 .colomn-ins{ 
     background-color: #fff;
@@ -213,8 +219,8 @@ nav.fill ul li a:after {
   width: 0%;
   content: '.';
   color: transparent;
-  background: #aaa;
-  height: 1px;
+  background: #03cddc;
+  height: 3px;
 }
 nav.stroke ul li a:hover:after {
   width: 100%;

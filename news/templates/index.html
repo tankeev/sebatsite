@@ -37,6 +37,8 @@
 
     <!-- Theme CSS -->
     <link href="{% static 'css/freelancer.css' %}" rel="stylesheet">
+    <link href="{% static 'css/contacts.css' %}" rel="stylesheet">
+    <link href="{% static 'css/licey.css' %}" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="{% static 'vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
@@ -71,7 +73,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">МАНАС АТА лицейи </a>
+                <a class="navbar-brand" href="/">МАНАС АТА лицейи </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -79,7 +81,7 @@
 
                 <ul class="nav navbar-nav navbar-right ">
                     <li class="main-links">
-                        <a class="nav-hover" href="#about">ЛИЦЕЙ</a>
+                        <a class="nav-hover" href="/licey">ЛИЦЕЙ</a>
                     </li>
                     <li class="main-links">
                         <a class="nav-hover" href="#about">ГАЛЕРЕЯ</a>
@@ -88,7 +90,7 @@
                         <a class = "nav-hover" href="#contact">ТАПШЫРУУЧУЛАРГА</a>
                     </li>
                     <li class="main-links">
-                        <a class = "nav-hover" href="#contact">БАЙЛАНЫШУУ</a>
+                        <a class = "nav-hover" href="/contacts">БАЙЛАНЫШУУ</a>
 
                     </li>
 
@@ -121,20 +123,18 @@
                         <h3>Социалдык баракчаларыбыз</h3>
                         <ul class="list-inline">
                             <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
+                                <a href="https://web.facebook.com/manasata.edu" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Google Plus</span><i class="fa fa-fw fa-google-plus"></i></a>
+                                <a href="https://www.instagram.com/manas_ata_sebat/" class="btn-social btn-outline"><span class="sr-only">Instagram</span><i class="fa fa-fw fa-instagram"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
+                                <a href="https://www.youtube.com/channel/UCFH3b7ED8a8RjKB20lXGhmg" class="btn-social btn-outline"><span class="sr-only">Youtube</span><i class="fa fa-fw fa-youtube"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
+                                <a href="mailto:22@sebat.edu.kg" class="btn-social btn-outline"><span class="sr-only">Email</span><i class="fa fa-fw fa-envelope"></i></a>
                             </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Dribble</span><i class="fa fa-fw fa-dribbble"></i></a>
-                            </li>
+                            
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
@@ -148,9 +148,8 @@
             <div class="container">
                 <div class="row row-foot1">
                     <div class="col-lg-12">
-                        Copyright &copy; Manas Ata |  Designed by: Tankeev Azamat
-                    </div>
-                    <div id="instafeed"> safsa</div>
+                        Copyright &copy; Manas Ata |  Designed by: Tankeev Azamat </div>
+                   
                 </div>
             </div>
         </div>
@@ -174,15 +173,10 @@
     <script src="{% static 'js/freelancer.min.js' %}"></script>
     <!--sliding words js-->
     <script src="{% static 'js/jquery-2.1.1.js' %}"></script>
+    <script src="{% static 'licey.js' %}"></script>
     <script src="{% static 'js/main1.js' %}"></script> <!-- Resource jQuery -->
-    <script src="{% static 'js/instafeed.min.js' %}"></script> <!-- Resource Instafeed -->
-    <script type="text/javascript">
-    var userFeed = new Instafeed({
-        get: 'manas_ata_sebat',
-        userId: '4027641685',       
-    });
-    userFeed.run();
-</script>
+   
+   
 
 
 </body>

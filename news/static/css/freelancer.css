@@ -71,6 +71,10 @@ p.small {
   border-color: #0096a7;
 }
 
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #03cddc;
+    background-color: transparent;
+  }
 
 @media (min-width: 768px) {
   .navbar-custom {

@@ -23,6 +23,8 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.news_list, name='news_list'),
     url(r'^detail/(?P<pk>\d+)/$', views.post_detail, name='post_detail'),
+    url(r'^contacts/', views.contacts, name='contacts' ),
+    url(r'^licey/', views.licey, name='licey' ),
 ]
 
 if settings.DEBUG:

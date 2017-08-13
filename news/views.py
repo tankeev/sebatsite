@@ -28,3 +28,9 @@ def post_detail(request, pk):
     post = get_object_or_404(News, pk=pk)
     share_string = quote_plus(post.title)
     return render(request, 'news/post_detail.html', {'post': post, 'share_string': share_string})
+
+def contacts(request):
+    return render(request, 'news/contacts.html')
+
+def licey(request):
+    return render(request, 'news/licey.html')
