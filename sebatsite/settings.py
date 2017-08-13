@@ -22,7 +22,7 @@ SECRET_KEY = '14^56vp+m^q2a$(lm&ojq@5u&lzm0)5qc_x%ijr5)!b7$%idc$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', '.manasata.edu.kg']
+ALLOWED_HOSTS = ['127.0.0.1', '.manasata.edu.kg','manasata.herokuapp.com']
 
 
 # Application definition
