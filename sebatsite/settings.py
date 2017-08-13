@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '14^56vp+m^q2a$(lm&ojq@5u&lzm0)5qc_x%ijr5)!b7$%idc$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', '.manasata.edu.kg','manasata.herokuapp.com']
 
