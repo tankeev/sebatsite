@@ -1,13 +1,8 @@
-venv
-*.pyc
-*~
-staticfiles
-__pychache__
-.env
-myenv
-db.sqlite3
-/static
-/DS_Store
+.DS_Store
+bin/
+include/
+pip-selfcheck.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
