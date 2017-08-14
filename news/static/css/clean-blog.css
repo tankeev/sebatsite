@@ -8,7 +8,7 @@
 .post-preview h1, h2{
   font-family: 'Lora', 'Times New Roman', serif;
   color: #777;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 p {
@@ -59,7 +59,6 @@ a {
 
 
 
-
 .main-post 
 a:hover,
 a:focus {
@@ -67,6 +66,11 @@ a:focus {
   text-decoration: none;
 }
 
+@media(max-width: 990){
+  .main-post h2{
+    font-size: 25px;
+  }
+}
 
 .post-subtitle {
   font-stretch: 4;
