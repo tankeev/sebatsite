@@ -116,7 +116,11 @@ p.small {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-  }}
+  }
+  .post-preview h2{
+    font-size: 12px;
+  }
+}
 
 
 
