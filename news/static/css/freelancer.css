@@ -110,6 +110,14 @@ p.small {
     transition: all 0.3s;
   }}
 
+  @media (max-width: 768px) {
+  .navbar-custom .navbar-brand {
+    font-size: 1.2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }}
+
 
 
 .carousel {
